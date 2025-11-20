@@ -49,10 +49,117 @@ document.write("hii we are still learning </br>" )
 // document.write(`About   ${mtvalue || "write something"} <br> `)
 // let uninitialized;
 // document.write(!uninitialized && "write something" )
-let age = prompt("Enter the age")
-if (age >= 18) {
-    document.write("eligible")
-}
-else {
-    document.write("not eligible")
-}
+
+
+// let age = prompt("Enter the age")
+// if (age >= 18) {
+//     document.write("eligible")
+// }
+// else {
+//     document.write("not eligible")
+// }
+
+
+// let num = prompt("enter a num")
+
+// if (num>0){
+//     console.log("greater than 0");
+    
+// }
+// else if (num<0) {
+//     console.log("less than 0")
+// }
+// else {
+//     console.log("num is 0")
+// }
+
+
+// let fruit = prompt("enter a fruit name")
+// switch(fruit) {
+// case "apple":
+//     console.log("you chose an apple")
+// case "banana":
+//     console.log("you chose a banana")
+// }
+
+
+// // simple function
+// function greeting(){
+//     document.write("hello shredder <br>")
+// }
+// greeting();
+
+// // function expression 
+// let date= function(){
+//     document.write("have a nice date<br>")
+// }
+// date();
+
+// // arrow function
+// let msg = () => {
+//     document.write("April fools<br>")
+// }
+// msg()
+
+// // iife function
+// (function (){
+//     document.write("this is iffe function<br>")
+
+// }()); 
+
+// function morning(){
+// document.getElementById("demo").innerHTML= "Good morning friends"
+// document.getElementById("mode").style.background= "skyblue"
+// document.getElementById("mode").style.color= "black"
+// }
+// function afternoon(){
+//     document.getElementById("demo").innerHTML= "Good after amigo's"
+//     document.getElementById("mode").style.background= "lightred"
+//     document.getElementById("mode").style.color= "yellow"
+// }
+// function evening(){
+//     document.getElementById("demo").innerHTML= "Good evening praaa"
+//     document.getElementById("mode").style.background= "blue"
+// document.getElementById("mode").style.color= "white"
+// }
+// function night(){
+//     document.getElementById("demo").innerHTML= "Good night mittar"
+//     document.getElementById("mode").style.background= "black"
+// document.getElementById("mode").style.color= "white"
+// }
+
+// function calculate() {
+//     let num1 = parseFloat(document.getElementById("num1").value);
+//     let num2 = parseFloat(document.getElementById("num2").value);
+//     let operator = document.getElementById("operator").value;
+//     let result;
+
+//     if (operator === "add") {
+//         result = num1 + num2;
+//     } else if (operator === "subtract") {
+//         result = num1 - num2;
+//     } else if (operator === "multiply") {
+//         result = num1 * num2;
+//     } else if (operator === "divide") {
+//         result = num1 / num2;
+//     }
+
+//     // document.getElementById("result").innerText = "Result: " + result;
+//     document.getElementById("result").innerHTML = `<h1>Result: ${result}</h1>`
+// }
+
+
+//  function oddeven(num){
+//     if (num%2 == 0)
+//     {
+//         return `${num} is even`
+//     } 
+//     else {
+//         return `${num} is odd`
+//         }
+//     }
+ 
+//  document.write(oddeven(59))
+
+num=prompt("Enter a num")
+console.log(num%2== 0 ? "Even" : "Odd");
